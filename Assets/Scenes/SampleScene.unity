@@ -216,6 +216,7 @@ GameObject:
   - component: {fileID: 331233213}
   - component: {fileID: 331233212}
   - component: {fileID: 331233211}
+  - component: {fileID: 331233214}
   m_Layer: 0
   m_Name: Open Sprite Shape
   m_TagString: Untagged
@@ -405,6 +406,43 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &331233214
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331233210}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -1.9695283, y: -0.2173897}
+  - {x: 1.4895686, y: -0.28861207}
+  - {x: 3.370717, y: 1.9446614}
+  - {x: 5.1447983, y: 0.06940675}
+  - {x: 7.0196347, y: 0.1473126}
+  - {x: 7.941122, y: -0.10206798}
+  - {x: 8.140087, y: -0.13441558}
+  - {x: 8.754139, y: 0.44400707}
+  - {x: 9.988504, y: 1.9410812}
+  - {x: 10.655786, y: 2.6291308}
+  - {x: 11.09893, y: 2.8425286}
+  - {x: 11.5050955, y: 2.6744149}
+  - {x: 12.132812, y: 1.7469711}
+  - {x: 12.616082, y: 0.3452736}
+  - {x: 12.801872, y: 0.05462247}
+  - {x: 14.481911, y: 0.055701315}
+  - {x: 15.928438, y: 0.230631}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
